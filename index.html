@@ -8,9 +8,25 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="header"></div>
-    <h1 id="trybewarts-header-title">Trybewarts</h1>
-    <img src="images/trybewarts-header-logo.svg" class="trybewarts-header-logo">
+    <header class="header">
+        <nav class="nav-bar">
+            <img src="images/trybewarts-header-logo.svg" class="trybewarts-header-logo">
+            <h1 id="trybewarts-header-title">Trybewarts</h1>
+            <form action="" class="trybewarts-login">
+                <input class="entrar email" type="email" name="email" id="email" placeholder="Email">
+                <input class="entrar senha" type="password" name="password" id="senha" placeholder="Senha">
+                <input class="entrar" id="btn-entrar" type="button" value="Entrar">
+            </form>
+        </nav>
+    </header>
+
+    <main class="form-container">
+        <form action="" id="evaluation-form">
+
+        </form>
+        <img id="trybewarts-forms-logo" src="./images/trybewarts-colored.svg" alt="">
+    </main>
+
     <script src="./script.js"></script>
 </body>
 </html>
