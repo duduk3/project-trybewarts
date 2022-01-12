@@ -1,11 +1,6 @@
-/* eslint-disable no-use-before-define */
-/* eslint-disable no-unused-vars */
-/* eslint-disable prefer-const */
-let btnEntrar = document.querySelector('#btn-entrar');
-let inputEmail = document.querySelector('#email');
-let inputSenha = document.querySelector('#senha');
-
-btnEntrar.addEventListener('click', logar);
+const btnEntrar = document.querySelector('#btn-entrar');
+const inputEmail = document.querySelector('#email');
+const inputSenha = document.querySelector('#senha');
 
 function logar() {
   if (inputEmail.value === 'tryber@teste.com' && inputSenha.value === '123456') {
@@ -14,3 +9,4 @@ function logar() {
     alert('Email ou senha inválidos');
   }
 }
+btnEntrar.addEventListener('click', logar);
