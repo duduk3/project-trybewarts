@@ -55,3 +55,6 @@
     width: 500px;
     height: 500px;
 }
+.nome-sobrenome {
+    flex-direction: row;
+}
