@@ -58,3 +58,7 @@
 .nome-sobrenome {
     flex-direction: row;
 }
+
+#house {
+    margin: 5px;
+}
