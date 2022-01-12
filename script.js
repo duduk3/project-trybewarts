@@ -14,6 +14,3 @@ function logar() {
     alert('Email ou senha inválidos');
   }
 }
-// let header = document.getElementsByClassName('header')
-// let filhoDoHeader = document.createElement('div')
-// header.appendChild(filhoDoHeader)
