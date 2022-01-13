@@ -1,3 +1,6 @@
+/* eslint-disable no-use-before-define */
+/* eslint-disable no-unused-vars */
+/* eslint-disable prefer-const */
 const btnEntrar = document.querySelector('#btn-entrar');
 const inputEmail = document.querySelector('#email');
 const inputSenha = document.querySelector('#senha');
