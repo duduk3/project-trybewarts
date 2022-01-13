@@ -2,64 +2,65 @@
   margin: 0;
 }
 
-.header { 
+.header {
   display: flex;
   background-color: rgb(50, 167, 145);
-  display: flex;
   justify-content: space-between;
   align-items: center;
   width: 100%;
   height: 96px;
 }
 
-.trybewarts-header-logo { 
+.trybewarts-header-logo {
   height: 80px;
   margin-left: 20px;
 }
 
-#trybewarts-header-title { 
+#trybewarts-header-title {
   color: white;
 }
 
-.trybewarts-login { 
+.trybewarts-login {
   display: flex;
   margin-right: 20px;
 }
 
-.entrar { 
+.entrar {
   height: 40px;
   width: 160px;
   border-radius: 8px;
   margin-left: 8px;
   font-size: 20px;
-  font-family: 'Times New Roman', times , serif;
+  font-family: Times, serif;
   border: none;
   padding-left: 10px;
 }
 
-#btn-entrar { height: 44px;
+#btn-entrar {
+  height: 44px;
   background-color: purple;
   color: white;
 }
 
-.form-container { display: flex;
+.form-container {
+  display: flex;
 }
 
-#evaluation-form { display: flex;
+#evaluation-form {
+  display: flex;
   width: 675px;
   flex-direction: column;
 }
 
-#trybewarts-forms-logo { width: 500px;
+#trybewarts-forms-logo {
+  width: 500px;
   height: 500px;
 }
 
-.nome-sobrenome { flex-direction: row;
+.nome-sobrenome {
+  flex-direction: row;
 }
 
 #house {
-    margin: 5px;
-}
-
-#house { margin: 5px;
+  margin: 5px;
 }
