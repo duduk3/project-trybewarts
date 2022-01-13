@@ -57,6 +57,16 @@
   flex-direction: column;
 }
 
+#form-title {
+  align-self: center;
+}
+
+.hr-line {
+  width: 90%;
+  height: 2px;
+  background-color: rgb(190, 190, 190);
+}
+
 #trybewarts-forms-logo {
   width: 500px;
   height: 500px;
