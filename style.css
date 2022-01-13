@@ -44,11 +44,16 @@
 
 .form-container {
   display: flex;
+  background-color: rgba(225, 200, 248, 0.274);
 }
 
 #evaluation-form {
   display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-flow: row wrap;
   width: 675px;
+  margin-left: 8%;
   flex-direction: column;
 }
 
