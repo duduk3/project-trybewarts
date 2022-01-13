@@ -67,13 +67,34 @@
   background-color: rgb(190, 190, 190);
 }
 
+.nome-sobrenome {
+  flex-direction: row;
+}
+
+.familia-conteudo {
+  display: flex;
+  flex-flow: row wrap;
+  width: 100%;
+  height: 15%;
+  justify-content: space-between;
+}
+
+.family {
+  width: 30%;
+}
+
+#conteudo {
+  width: 50%;
+  margin-right: 20%;
+}
+
+.input-conteudo {
+  margin-left: 20px;
+}
+
 #trybewarts-forms-logo {
   width: 500px;
   height: 500px;
-}
-
-.nome-sobrenome {
-  flex-direction: row;
 }
 
 #house {
