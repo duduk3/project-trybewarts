@@ -26,44 +26,46 @@
                 <input type="text" id="input-email" placeholder="Email">      
                 <div id="select-container">
                     <label for="house">Casa:</label>
-                    <select name="house" id="house">
-                        <option value="Gitnória" id="gitnoria-house">Gitnória</option>
-                        <option value="Reactpuff" id="reactpuff-house">Reactpuff</option>
-                        <option value="Corvinode" id="corvinode-house">Corvinode</option>
-                        <option value="Pytherina" id="pytherina-house">Pytherina</option>
+                    <select id="house" class="option-casa" name="house">
+                        <option id="gitnoria-house" value="Gitnória">Gitnória</option>
+                        <option id="reactpuff-house" value="Reactpuff">Reactpuff</option>
+                        <option id="corvinode-house" value="Corvinode">Corvinode</option>
+                        <option id="pytherina-house" value="Pytherina">Pytherina</option>
                     </select>
                 </div> 
             </section>
             <hr class="hr-line">
             <section class="familia-conteudo">
                 <div class="family">
-                        <p id="label-family">Qual sua família?</p>
+                    <p id="label-family">Qual sua família?</p>
                     <ul>
                         <li><input type="radio" name="family" value="Frontend">Frontend</li>
                         <li><input type="radio" name="family" value="Backend">Backend</li>
                         <li><input type="radio" name="family" value="FullStack">FullStack</li>
                     </ul>
                 </div>
-                <div id="conteudo">
+                <div id="label-content">
                     <p>Qual conteúdo você está com mais vontade de aprender?</p>
-                    <label for="hofs">
-                        <input id="hofs" class="input-conteudo" type="checkbox" name="HoFs" value="HoFs">HoFs
-                    </label>
-                    <label for="jest">
-                        <input id="jest" class="input-conteudo" type="checkbox" name="Jest" value="Jest">Jest
-                    </label>
-                    <label for="promises">
-                        <input id="promises" class="input-conteudo" type="checkbox" name="Promisses" value="Promises">Promisses
-                    </label>
-                    <label for="react">
-                        <input id="react" class="input-conteudo" type="checkbox" name="React" value="React">React
-                    </label>
-                    <label for="sql">
-                        <input id="sql" class="input-conteudo" type="checkbox" name="SQL" value="SQL">SQL
-                    </label>
-                    <label for="python">
-                        <input id="python" class="input-conteudo" type="checkbox" name="Python" value="Python">Python
-                    </label>
+                    <div id="tech-label">
+                        <label class="label-conteudo" for="hofs">
+                            <input id="hofs" class="input-conteudo" type="checkbox" name="HoFs" value="HoFs">HoFs
+                        </label>
+                        <label class="label-conteudo" for="jest">
+                            <input id="jest" class="input-conteudo" type="checkbox" name="Jest" value="Jest">Jest
+                        </label>
+                        <label class="label-conteudo" for="promises">
+                            <input id="promises" class="input-conteudo" type="checkbox" name="Promisses" value="Promises">Promisses
+                        </label>
+                        <label class="label-conteudo" for="react">
+                            <input id="react" class="input-conteudo" type="checkbox" name="React" value="React">React
+                        </label>
+                        <label class="label-conteudo" for="sql">
+                            <input id="sql" class="input-conteudo" type="checkbox" name="SQL" value="SQL">SQL
+                        </label>
+                        <label class="label-conteudo" for="python">
+                            <input id="python" class="input-conteudo" type="checkbox" name="Python" value="Python">Python
+                        </label>
+                    </div>
                 </div>
             </section>
             <hr class="hr-line">    
