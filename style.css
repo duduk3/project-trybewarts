@@ -79,21 +79,21 @@
   width: 45%;
   height: 30px;
   border: none;
-  margin: 4px 1% 4px 0px;
+  margin: 4px 1% 4px 0;
 }
 
 #input-lastname {
   width: 45%;
   height: 30px;
   border: none;
-  margin: 4px 1% 4px 0px;
+  margin: 4px 1% 4px 0;
 }
 
 #input-email {
   width: 45%;
   height: 30px;
   border: none;
-  margin: 4px 1% 4px 0px;
+  margin: 4px 1% 4px 0;
 }
 
 #select-container {
@@ -101,11 +101,11 @@
   align-items: center;
   height: 30px;
   width: 30%;
-  margin: 4px 1% 4px 0px;
+  margin: 4px 1% 4px 0;
 }
 
 .option-casa {
-  padding: 0px 30%;
+  padding: 0 30%;
   height: 30px;
   border: none;
   background-color: white;
@@ -117,7 +117,7 @@
   height: 120px;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 0px;
+  padding: 10px 0;
 }
 
 .family {
@@ -151,7 +151,7 @@
   margin-right: 20%;
 }
 
-#label-content  p {
+#label-content p {
   display: flex;
   margin-bottom: 10px;
 }
@@ -165,16 +165,15 @@
 }
 
 .label-conteudo {
-}
-
-.label-conteudo {
+  display: flex;
+  flex-flow: column;
   margin-right: 15%;
 }
 
 .avaliation {
   display: flex;
   justify-content: flex-start;
-  margin: 20px 0px;
+  margin: 20px 0;
 }
 
 #label-rate {
@@ -192,7 +191,7 @@
 #submit-btn {
   height: 44px;
   width: 600px;
-  margin: 10px 0px;
+  margin: 10px 0;
   background-color: purple;
   color: white;
 }
