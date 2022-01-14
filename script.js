@@ -12,8 +12,8 @@ function logar() {
 btnEntrar.addEventListener('click', logar);
 
 const ativarBotao = document.getElementById('agreement');
-
 document.getElementById('submit-btn').disabled = true;
+
 function enviar() {
   document.getElementById('submit-btn').disabled = false;
 }

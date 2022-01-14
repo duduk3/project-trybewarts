@@ -1,5 +1,6 @@
 * {
   margin: 0;
+  font-weight: 600;
 }
 
 .header {
@@ -44,18 +45,18 @@
 
 .form-container {
   display: flex;
+  justify-content: space-around;
+  align-items: center;
   background-color: rgba(225, 200, 248, 0.274);
 }
 
 #evaluation-form {
   display: flex;
+  flex-direction: column;
   justify-content: space-around;
-  align-content: space-between;
   align-items: flex-start;
-  flex-flow: row wrap;
   width: 675px;
   margin-left: 8%;
-  flex-direction: column;
 }
 
 #form-title {
@@ -112,36 +113,85 @@
 
 .familia-conteudo {
   display: flex;
-  flex-flow: row wrap;
   width: 100%;
-  height: 15%;
+  height: 120px;
   justify-content: space-between;
+  align-items: center;
+  padding: 10px 0px;
 }
 
 .family {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   width: 30%;
+  height: 100%;
 }
 
 .family ul {
+  display: flex;
+  height: 80%;
+  flex-direction: column;
+  justify-content: space-around;
   list-style-type: none;
 }
 
+.family ul li {
+  display: flex;
+  align-self: flex-start;
+  align-items: center;
+  margin-left: -28%;
+}
+
 #label-content {
+  display: flex;
+  flex-flow: column;
   width: 50%;
+  height: 100%;
   margin-right: 20%;
 }
 
 #label-content  p {
+  display: flex;
+  margin-bottom: 10px;
 }
 
 #tech-label {
+  height: 80%;
   display: flex;
   flex-flow: row wrap;
-  align-content: space-between;
+  align-content: space-around;
+  align-items: center;
 }
 
 .label-conteudo {
   margin-right: 15%;
+}
+
+.avaliation {
+  display: flex;
+  justify-content: flex-start;
+  margin: 20px 0px;
+}
+
+#label-rate {
+  margin-right: 10px;
+}
+
+.avaliation input {
+  margin-left: 5px;
+}
+
+#textarea {
+  width: 600px;
+}
+
+#submit-btn {
+  height: 44px;
+  width: 600px;
+  margin: 10px 0px;
+  background-color: purple;
+  color: white;
 }
 
 #trybewarts-forms-logo {
@@ -151,4 +201,13 @@
 
 #house {
   margin: 5px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  background-color: rgb(61, 61, 61);
+  color: white;
 }
