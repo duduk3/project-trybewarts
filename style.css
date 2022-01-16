@@ -165,8 +165,6 @@
 }
 
 .label-conteudo {
-  display: flex;
-  flex-flow: column;
   margin-right: 15%;
 }
 
