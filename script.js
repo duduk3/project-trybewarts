@@ -19,3 +19,10 @@ function enviar() {
 }
 
 ativarBotao.addEventListener('click', enviar);
+
+const textArea = document.querySelector('#textarea');
+const countTextarea = document.querySelector('#count-text');
+
+textArea.addEventListener('keyup', () => {
+  countTextarea.innerHTML = 500 - textArea.value.length;
+});

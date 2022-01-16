@@ -185,6 +185,10 @@
 
 #textarea {
   width: 600px;
+  height: 100px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+  font-weight: 200;
 }
 
 #count-text {
