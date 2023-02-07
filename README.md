@@ -12,8 +12,8 @@
   - **1** inserindo um email e senha no input
   - **2**  preenchendo os dados
   - **3** inserindo um comentário
-  - **4** envindo o formulério preenchido
-  - **obs:** o e-mail e a senha estão no arquivo script.js
+  - **4** submetendo o formulário preenchido
+  - **obs:** o e-mail e a senha estão no arquivo script.js e quando inserido corretamente aparece uma mensagem na tela
 </details>
 
 <details>
@@ -22,7 +22,7 @@
   </summary>
 
   - **criando um banco de dados**
-  - **ou inserindo os dados em um arquido de texto**
+  - **ou inserindo os dados em um arquivo de texto**
   - **validar o email e a senha(criptografada) com os dados armazenados**
 </details>
 
