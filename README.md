@@ -1,13 +1,33 @@
-# :construction: README customizado em construção ! :construction:
-<!-- Olá, Tryber!
-Esse é apenas um arquivo inicial para o README do seu projeto no qual você pode customizar e reutilizar todas as vezes que for executar o trybe-publisher.
+# Este projeto no curso foi desenvolvido em dupla e aprimoramos a habilidade de compartilharnosso código!!! 🤝
 
-Para deixá-lo com a sua cara, basta alterar o seguinte arquivo da sua máquina: ~/.student-repo-publisher/custom/_NEW_README.md
+## Praticamos o conhecimento aprendido em formulário com Html, Css e Javascript .
 
-É essencial que você preencha esse documento por conta própria, ok?
-Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua criatividade brilhar!
-:warning: IMPORTANTE: você precisa deixar nítido:
-- quais arquivos/pastas foram desenvolvidos por você; 
-- quais arquivos/pastas foram desenvolvidos por outra pessoa estudante;
-- quais arquivos/pastas foram desenvolvidos pela Trybe.
--->
+### A tarefa de criação de formulários, posicionamento dos elementos na tela e validação com Html e Css com o Javascript foi mais um pouco do conteúdo realizado no bloco 5 do curso da Trybe. 
+
+<details>
+  <summary>
+    <b>📌 Replicamos uma página web de um formulário:</b>
+  </summary>
+  
+  - **1** inserindo um email e senha no input
+  - **2**  preenchendo os dados
+  - **3** inserindo um comentário
+  - **4** envindo o formulério preenchido
+  - **obs:** o e-mail e a senha estão no arquivo script.js
+</details>
+
+<details>
+  <summary>
+    <b>📌 Quem quiser pode ir além:</b>
+  </summary>
+
+  - **criando um banco de dados**
+  - **ou inserindo os dados em um arquido de texto**
+  - **validar o email e a senha(criptografada) com os dados armazenados**
+</details>
+
+<b>😉 Show de bola! 🤪🤓</b>
+
+
+
+### Bacana demais! Sentir a evolução com a validação no Javascript apenas. :rocket: 
